@@ -10,7 +10,7 @@
     <meta name="author" content="Elaine Flynn">
     <link rel="icon" href="images/bag.png">
 
-    <title>Fundraising | Shop for Challoner's</title>
+    <title>Volunteer | Shop for Challoner's</title>
 
     <link href="http://www.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -72,10 +72,10 @@
                     <li><a href="order.html">Place an order</a></li>
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Get Involved</li>
-                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li class="active"><a href="volunteer.html">Volunteer</a></li>
                   </ul>
                 </li>
-                <li class="active"><a href="fundraising.html">Other ways of fundraising</a></li>
+                <li><a href="fundraising.html">Other ways of fundraising</a></li>
               </ul>
             </div>
           </div>
@@ -87,29 +87,28 @@
     <div class="container">
 
       <div class="jumbotron">
-        <h1>Other Ways of Fundraising</h1>
-        <p class="lead">There are other ways of fundraising which you could try, none of which cost you any extra money.</p>
+        <h1>Volunteer</h1>
+        <p class="lead">Thank you for considering volunteering for the scheme! Please tell us your details below so that we can get back to you. You're not committing yourself to anything at this stage, so please feel free to make suggestions and ask any questions you might have.</p>
       </div>
 
-      <div class="container marketing">
-      <div class="row">
-        <div class="col-lg-4">
-          <h2>easysearch.org.uk</h2>
-          <p>A simple way of fundraising is to use easysearch as your search engine instead of Google, for example. You should get very similar results, and each search raises money for the school - a percentage of the advertising money is given to the registered good causes. Each individual search raises very little, but it all adds up!</p>
-          <p><a class="btn btn-default" href="http://challonersgirls.easysearch.org.uk/" role="button">Try easysearch now &raquo;</a></p>
+      <form>
+        <div class="form-group">
+          <label for="nameInput">Tell us your name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Name">
         </div>
-        <div class="col-lg-4">
-          <h2>easyfundraising.org.uk</h2>
-          <p>easyfundraising.org.uk offers another really simple way of raising funds for the school.<br>You need to create an account with the Challoner's Girls Foundation registered as your good cause. Then, if you decide to make an online purchase from a retailer who is involved in the scheme, visit easyfundraising.org.uk first and use their link to the retailer's website. The retailer then gives a percentage donation to the school, and your purchase costs exactly the same as it would have done otherwise.<br>Currently, almost 3000 retailers are involved, including John Lewis, Tesco, Sainsbury's, Argos and Ebay.</p>
-          <p><a class="btn btn-default" href="https://www.easyfundraising.org.uk/support-a-good-cause/step-1/?char=42891" role="button">Sign up to easyfundraising.org.uk &raquo;</a></p>
+        <div class="form-group">
+          <label for="emailInput">Tell us the email you'd like us to contact you on</label>
+          <input type="email" class="form-control col-sm-5" id="emailInput" placeholder="Email address">
         </div>
-        <div class="col-lg-4">
-          <h2>Amazon link</h2>
-          <p>Similarly to easyfundraising.org.uk, visiting Amazon via a designated link before you start your shop will ensure that Amazon gives a percentage of your purchases as a donation to the school.</p>
-          <p><a class="btn btn-default" href="http://www.amazon.co.uk/" role="button">Raise funds as you shop at Amazon &raquo;</a></p>
-        </div>
-      </div>
-      </div>
+      </form>
+      <br>
+      <br>
+      <form>
+        <label for="questionInput">Please tell us what sort of thing you'd like to be involved with, be it helping with the administration of the scheme or giving out gift cards one or two lunchtimes per month. If you have any particular constraints, for example time-wise, don't be afraid to let us know. We'd love to hear from you.</label>
+        <textarea class="form-control" id="questionInput" rows="20"></textarea>
+        <br>
+        <button type="submit" href="thankyou.html" class="btn btn-default">Submit</button>
+      </form>
 
     </div>
 
